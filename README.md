@@ -5,7 +5,7 @@ This is my minimal neovim configuration files, It's good for those that want a s
 ![nvim](https://raw.githubusercontent.com/Default-Artin/My-Neovim-Config/main/nvim.png)
 <br />
 # Requirements
-- Neovim v0.9 or above
+- Neovim v0.10 or above
 - Nerd Font as the terminal font (like JetbrainsMono Nerd Font)
 - GCC (C Compiler)
 - npm
@@ -24,7 +24,7 @@ Just copy and paste
 <br />
 
 # Uninstall
-### Linux / Macos (unix)
+### Linux / Macos
     rm -rf ~/.config/nvim
     rm -rf ~/.local/state/nvim
     rm -rf ~/.local/share/nvim
