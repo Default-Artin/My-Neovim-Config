@@ -42,7 +42,7 @@ Just copy and paste
 For nvim & tmux navigation plugin to work; tmux needs some configs.
 ### My Tmux Config
 ![tmux](https://raw.githubusercontent.com/Default-Artin/My-Neovim-Config/main/tmux.png)
-Just copy and paste this to `~/.tmux.conf` file:
+Install [TPM](https://github.com/tmux-plugins/tpm) (Tmux Plugin Manager), then Just copy and paste this to `~/.tmux.conf` file:
 
     unbind r
     bind r source-file ~/.tmux.conf
