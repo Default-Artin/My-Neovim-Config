@@ -6,7 +6,7 @@ return {
 
   config = function()
     local alpha = require("alpha")
-    local dashboard = require("alpha.themes.startify")
+    local dashboard = require("alpha.themes.dashboard")
 
     dashboard.section.header.val = {
       [[                                                                       ]],
@@ -25,6 +25,14 @@ return {
       [[                                                                       ]],
       [[                                                                       ]],
     }
+    dashboard.section.buttons.val = {
+		  dashboard.button("e", "  New file", "<Cmd> ene <CR>"),
+		  dashboard.button("r", "  Recent"   , ":Telescope oldfiles<CR>"),
+		  dashboard.button("f", "󰈞  Find file", ":Telescope find_files <CR>"),
+		  dashboard.button("t", "󱎸  Find text", ":Telescope live_grep <CR>"),
+		  dashboard.button("m", "  BookMarks", ":Telescope marks <CR>"),
+		  dashboard.button("q", "󰿅  Quit NVIM", ":qa<CR>"),
+	}
 
     alpha.setup(dashboard.opts)
   end,
