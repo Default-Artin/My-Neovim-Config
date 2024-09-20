@@ -31,6 +31,8 @@ return {
 		  dashboard.button("f", "󰈞  Find file", ":Telescope find_files <CR>"),
 		  dashboard.button("t", "󱎸  Find text", ":Telescope live_grep <CR>"),
 		  dashboard.button("m", "  BookMarks", ":Telescope marks <CR>"),
+		  dashboard.button("s", "  Default Theme", ":e ~/.config/nvim/lua/plugins/theme.lua<CR>"),
+		  dashboard.button("c", "  Configuration", ":Explore ~/.config/nvim/<CR>"),
 		  dashboard.button("q", "󰿅  Quit NVIM", ":qa<CR>"),
 	}
 
