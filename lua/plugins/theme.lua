@@ -40,7 +40,7 @@ return {
     priority = 1000,
     config = function()
         vim.cmd('colorscheme base16-ayu-dark')
-		NoBackground()
+	NoBackground()
     end,
 }
 
