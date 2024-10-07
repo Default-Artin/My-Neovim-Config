@@ -6,6 +6,16 @@ vim.cmd("set number")
 vim.cmd("set binary")
 vim.cmd("set noeol")
 
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+vim.keymap.set("v", "Y", '"+y')
+
+vim.opt.smartindent = true
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
+
+vim.opt.scrolloff = 6
+
 --vim.cmd('set guicursor="disable"')
 vim.cmd("set guicursor=n-c:hor100,v-sm:block,i-ci-ve:ver25-Cursor,r-cr-o:hor20")
 
