@@ -10,6 +10,8 @@ vim.opt.eol = false
 
 vim.opt.termguicolors = true
 
+vim.opt.winborder = 'rounded'
+
 -- highlight cursorline number
 vim.cmd("set cursorline")
 vim.cmd("set cursorlineopt=number")
